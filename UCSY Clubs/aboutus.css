@@ -1,0 +1,257 @@
+body {
+   font-family: "Poppins", sans-serif;
+   background-image: url("imageucsy.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  z-index: 100;
+}
+
+nav .nav-bar {
+  position: absolute;
+  height: 100%; 
+  width: 100%;
+  background-color: #F9DF8D;
+  margin: 0 auto;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .nav-bar .logo a {
+ color: black;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      padding-right: 170px;
+
+}
+
+.nav-bar .nav-links {
+  display: flex;
+  justify-content: center; /* Justify content to the center */
+  margin-right: 100px;
+}
+
+.nav-bar .nav-links li {
+  list-style: none;
+  padding-top: 30px;
+}
+
+.nav-links li a {
+  position: relative;
+  font-size: 17px;
+  font-weight: 400;
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.nav-links li a:hover{
+  background-color:rgb(226,226,226);
+  border-radius: 20px; 
+}
+
+.nav-links li a::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 3px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: var(--text-color);
+  opacity: 0;
+  transition: all 0.3s ease;
+
+}
+.btn {
+  width: 100%;
+  height: 10px;
+  background: black;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1em;
+  color: white;
+  font-weight: 500;
+}
+
+.input-box .icon {
+  position: absolute;
+  right: 8px;
+  font-size: 1.2em;
+  color: black;
+  line-height: 57px;
+}
+
+.nav-links li:hover a::before {
+  opacity: 1;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btnlog {
+  position: absolute;
+  font-size: 17px;
+  font-weight: 400;
+  color: black;
+  text-decoration: none;
+  border-style: none;
+  border-width: 50px;
+  background-color: #F9DF8D;
+  margin-right: 50px;
+}
+
+.btnlog:hover {
+  background: rgb(226,226,226);
+  color: black;
+  text-decoration: none;
+  width: 110px;
+  height: 30px;
+  border-radius: 20px;
+
+}
+
+.dropbtn {
+  background-color: #F9DF8D;
+  color: black;
+  padding: 1px;
+  font-size: 17px;
+  border-style: none;
+  cursor: pointer;
+  padding-right: 80px;
+  padding-left: 10px;
+  height: 27px;
+}
+}
+
+.dropbtn:hover{
+  background-color: rgb(226,226,226);
+  border-radius: 20px;
+  }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 85px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: hidden;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: #F9F8D2;
+  width: 100%;
+}
+
+.dropdown a:hover {
+  background-color: rgb(226,226,226);
+}
+
+.show {
+  display: block;
+}
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  margin-left: 230px;
+  margin-right: 180px;
+  margin-top: 60px;
+}
+
+.member {
+  width: 180px;
+  height: 240px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #F9F8D2;
+  border-radius: 8px;
+  text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: black;
+
+}
+
+.member img {
+  width: 60%;
+  border-radius: 50%;
+}
+
+.member h3 {
+  margin-top: 10px;
+}
+
+.member p {
+  color: black;
+}
+button {
+  width: 100%;
+  height: 45px;
+  background: #F9DF8D;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  color: white;
+  font-weight: 500;
+  font-size: 1em;
+  justify-content: space-around;
+  color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+
+button:hover {
+  opacity: 0.7;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-style: "Poppins", sans-serif;
+  font-size: 1.2em;
+
+}
+
+a:hover {
+  text-decoration: underline;
+}

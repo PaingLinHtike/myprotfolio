@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ucsyers Guide</title>
+    <link rel="stylesheet" href="css/style.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style >
+      
+      /* Define the slide-up animation */
+@keyframes slideUpAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animation to container, card, section, and footer */
+.container,
+.card,
+section,
+.footer {
+  animation: slideUpAnimation 1s ease-out;
+}
+
+/* Apply animation to specific text elements */
+/* Adjust these selectors based on your HTML structure */
+h1,
+h2,
+p,
+button {
+  animation: slideUpAnimation 1s ease-out;
+}
+
+    </style>
+  </head>
+  <body style="position: relative;">
+  <header>
+       
+       <div> 
+          <img src="images/ucsy.jpg" height="70" style="padding-left: 50px; padding-top: 20px; padding-bottom: 5px ;"> 
+         
+        </div>
+        
+      
+    </header>
+
+    <nav id = "navbar" style=" position: sticky; top: 0; left: 0; opacity: 0.8;z-index: 100000;">
+      <ul class="container">
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <select class="destinations" onchange="location=this.value;">
+              <option id="defaultOptionDestinations" selected>Destinations</option>
+              
+              <option value="lab.html">Labs</option>
+              <!-- <option value="library.html">Library</option> -->
+              <option  value="athelete.html">Athlete Centre</option>
+              <option value="canteen.html">Canteen</option>
+              <option value="outside.html">Outside school</option>
+            </select>
+          </li>
+          <li>
+            <select class="activities" onchange="location=this.value;">
+              <option id="defaultOptionActivities" selected>Activities</option>
+              <option value="clubs.html">Clubs</option>
+              <option value="event.html">Events</option>
+              <option value="event.html#boardGame">Board Game</option>
+            </select>
+          </li>
+          <li><a href="learning.html">Learning</a></li>
+          <li><a href="about.html">About Us</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+
+    <section class="container fit mt-120">
+      <div class="fit-body">
+        <h1 style="font-size: 35px;">Welcome to</h1>
+        <h1 style="color:#5b66a6 ; font-family: Georgia;">UCSYers</h1>
+      </div>
+      <div class="fit-img">
+        <img src="images/UCSYER.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="container welcome mt-120">
+      <div class="welcome-img" style="padding-top: 40px; padding-right: 25px;">
+        <img  class="welcome2img" src="images/ucsy2.jpg" alt="" />
+      </div>
+
+      <div class="welcome-body">
+        <h1 class="title" style="text-align: center;">
+          UCSY  <span class="">History</span>
+        </h1>
+        
+        <p>
+          In 1971, it was founded as UCC, the university Computer Center. In 1988, it was established as an Institute of Computer Science and Technology (ICST). On July 1, 1998, the Institute was changed to the University of Computer Studies, Yangon (UCSY).
+        </p>
+        <p>
+          The University of Computer Studies,Yangon (UCSY) is one of the higher institutions under the Ministry of Science and Technology. UCSY is to conduct teaching and research in various branches of computer science, computer technology, and information technology. To meet the growing need for general and advanced computer education in Myanmar, the university currently offers both undergraduate and postgraduate degrees. Its language of instruction is English.
+        </p>
+        <p>
+          Bachelor degrees were started in 1986 but Master degrees were offered in 1973. In May 2001, the Ph.D. program was started. For all study programs, each academic year is divided into two terms. Each term has 18 weeks for teaching and practical. Examinations are conducted during the end of each term. Clear attendance, tutorials and practical, class assignments are taken into account as components of the assessment.
+        </p>
+       
+      </div>
+    </section>
+    
+    <section class="container our-class mt-120">
+      <h1 class="title">Our <span class="">Informations</span></h1>
+      <div class="card-group">
+        <div class="card">
+          <div class="card-img card-img-1"></div>
+          <div class="card-body">
+            <h2>Daily news</h2>
+            <small class="red-color">hhjhjhj</small>
+            <p>Monday, Tuesday, Wednesday</p>
+            <p>3:00 PM -5:00 PM</p>
+          </div>
+          <div class="card-footer">
+            <button>More Detail</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img card-img-2"></div>
+          <div class="card-body">
+            <h2>Shout Out</h2>
+            <small class="red-color">Reveal Dissatisfaction</small>
+            <p>bla bla</p>
+            <p>blblblll</p>
+          </div>
+          <div class="card-footer">
+            <button>More Detail</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img card-img-3"></div>
+          <div class="card-body">
+            <h2>Title 3</h2>
+            <small class="red-color">FFFFffy</small>
+            <p>hhjhjh</p>
+            <p>sdsdsd</p>
+          </div>
+          <div class="card-footer">
+            <button>More Detail</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img card-img-4"></div>
+          <div class="card-body">
+            <h2>Title 4</h2>
+            <small class="red-color"
+              >bla bla</small
+            >
+            <p>asss</p>
+            <p>asssss</p>
+          </div>
+          <div class="card-footer">
+            <button href="">More Detail</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="video container mt-120">
+
+      <div class="know">
+        <p class="knowp">
+          <span style="font-family:var(--secondary-font-family); color:  #333333; font-weight: bold;">More UCSY Informations</span>
+          <span class="p" style="text-align: left; font-size: 1rem;" >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, natus dolorum quod quia cupiditate similique voluptate? Nesciunt laudantium quibusdam sapiente cumque ea mollitia voluptatibus molestiae fuga magnam deleniti. Veritatis ut inventore, atque repellat accusantium assumenda esse non dolores alias necessitatibus iure in perspiciatis explicabo labore, natus, saepe nulla doloremque pariatur!
+          </span>
+        </p>
+
+      <iframe width="560" height="370" src="https://www.youtube.com/embed/4lcvH14vQrE?si=-0xZzZZtmibyt2hX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+      </div>
+      
+    </div>
+
+
+   
+
+
+      <section class=" mt-120">
+        <div class="footer">
+          <div style="display: flex; justify-content: space-between;">
+
+  <div style="margin-top:6% ; width: 30%; padding-left: 130px;">
+    <h1>Reactor Office</h1><br>
+    <br>
+    <a href=""><i class="fa-solid fa-phone"></i>&nbsp; Phone: &nbsp;  09-123456789</a><br>
+    <a href="mailto:camaliaalsha@gmail.com"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;Email:&nbsp; reactoroffice@ucsy.edu.mm</a><br>
+
+    <a href="https://www.ucsy.edu.mm/"><i class="fa-solid fa-arrow-up-right-from-square"></i>&nbsp;&nbsp;Websites: www.ucsy.edu.mm</a>
+   
+  </div>
+
+ <div style="margin-top: 6%; width: 30%;padding-left: 70px;">
+  <h1>Student Affairs</h1><br>
+  <br>
+    <a href="#"><i class="fa-solid fa-phone"></i>&nbsp;Phone:&nbsp;09-443440479</a><br>
+           <a href="mailto:ucsy.studentaffair@ucsy.edu.mm"><i class="fa-solid fa-envelope"></i>&nbsp; Email:&nbsp; ucsy.studentaffair@ucsy.edu.mm</a>
+  </div>
+
+
+  <div style="margin-top: 6%; width: 30%;padding-left: 30px;">
+    <h1>Head of Student Affairs</h1><br>
+    <br>
+    <a href="#"><i class="fa-solid fa-phone"></i>&nbsp;Phone: &nbsp;09-443440478</a><br>
+           <a href="mailto:ucsy.studentaffair@ucsy.edu.mm"><i class="fa-solid fa-envelope"></i>&nbsp; Email:&nbsp;ucsy.studentaffair@ucsy.edu.mm</a>
+  </div>
+
+
+  <div style="margin-top: 6%; width: 33%; padding-left: 70px ;">
+    <h1>Contact Us</h1><br>
+    <br>
+     <li><a href="#"><i class="fa-brands fa-x-twitter"></i> <i class="fa-brands fa-facebook"></i></a></li>
+         
+  </div>
+
+</div>
+    </div>
+
+       <div >
+        
+          <a href="https://www.ucsy.edu.mm/" > <img src="images/Ue.png" style="position:absolute; bottom: 13px;right: 200px; height: 50px; "></a>
+
+           <a href="https://moodle.ucsy.edu.mm/index.php" ><img src="images/Me.png" style="position:absolute; bottom: 1px;right: 136px; height: 75px;"></a>
+
+            <a href="index.html"><img src="images/Ne.png" style="position:absolute; bottom: 1px;right: 60px; height: 68px; "></a>
+        </div>
+      </div>
+    </section>
+     
+    
+    <script src="script.js"></script>
+    <script src="js/optimization.js"></script>
+
+  </body>
+</html>

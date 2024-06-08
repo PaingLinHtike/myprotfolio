@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pofolion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="testing.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="nav-right">
+            Paing.dev
+        </div>
+    </nav>
+
+    <section id="home">
+        <h1>Front-End React Developer</h1>
+        <img src="Photos/Mine.jpg" alt="My Photo" class="myImage">
+        <p>Hi, I'm Paing Lin Htike. A passionate Front-end React Developer based in Htauk-Kyant, Yangon.</p>
+        <p>Tech Stack</p>
+        <div class="icon-container">
+            <i class="fab fa-html5 html-icon"></i>
+            <i class="fab fa-css3-alt css-icon"></i>
+            <i class="fab fa-bootstrap bootstrap-icon"></i>
+            <i class="fab fa-js-square js-icon"></i>
+            <i class="fab fa-react react-icon"></i>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="blue">About Me</p>
+        <h3>A dedecated Front-end Developer based in Htauk-Kyant, Yangon.</h3>
+        <img src="Photos/Laptop.jpg" alt="My Laptop" class="myLaptop">
+            <p style="text-align: center;">As a Junior Front-End Develper, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Bootstrap. I excel in designing and maintaing responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging inerfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collabrating with cross-functional teams to produce outstanding web applocations.</p>
+    </section>
+
+    <section id="projects">
+        <p class="blue">PORTFOLIO</p>
+        <h3>Each project is a unique piece of development.</h3>
+        <img src="Photos/UCSY Clubs.png" alt="UCSY Clubs" class="myProjectImg">
+        <a href="  UCSY Clubs/index1.html"><p class="pHeading">UCSY Clubs</p></a>
+        <p class="pContent">A UCSY Clubs web site a online platform that allows us to know what clubs are there and what are they. We can join the clubs from this website without going there. The website provides us to know about these clubs easily.</p>
+    </section>
+
+    <section id="projects">
+        <img src="Photos/Bank.png" alt="Bank" class="myProjectImg">
+        <a href="Bank/index.html"><p class="pHeading">Bank</p></a>
+        <p class="pContent">A Bank web site a online platform that allows us to withdraw or deposit. We can create a account on this website easily and can know what feature we can get. There are also operation and testimonials</p>
+    </section>
+
+    <section id="projects">
+        <img src="Photos/UCSY Student Guide.png" alt="UCSY Student Guide" class="myProjectImg">
+        <a href="UCSY Student Guide/index.html"><p class="pHeading">UCSY Student Guide</p></a>
+        <p class="pContent">A UCAY Stuent Guide web site is a online platform that allows us to know what are ther in UCSY and what can we do at there. We can also know the places around UCSY. </p>
+    </section>
+
+    <section id="contact">
+
+        <div class="contact-container">
+            <div style="text-align: center;">
+                <h2>Contact Us</h2>
+                <p>Swing by for a cup of coffee, or leave us a message:</p>
+            </div>
+            <a href="https://maps.app.goo.gl/2tnwJnJxvgj2jedW8">
+                <img class="contact-image" src="Photos/Map.png" alt="Contact Image">
+            </a><br>
+            <div class="container">
+
+        <!-- <form>
+            <label for="fname">First Name</label>
+            <input required type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input required type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select required id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="myanmar">Myanmar</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+            <a href="thankyou.html" class="button">Submit</a>
+        </form> -->
+        <div class="form-container">
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="firstName">First Name *</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name *</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                <div class="form-group">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="">Select a country</option>
+                        <option value="US">United States</option>
+                        <option value="CA">Canada</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="AU">Australia</option>
+                        <option value="Mya">Myanmar</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+</section>
+<script src="testing.js"></script>
+</body>
+</html>

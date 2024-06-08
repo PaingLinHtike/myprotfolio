@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet">
+    <title>UCSY</title>
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" type="text/css" href = "css/clubs.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/5af5eaea4b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+       
+        <div> 
+           <img src="images/ucsy.jpg" height="70" style="padding-left: 50px; padding-top: 20px; padding-bottom: 5px ;"> 
+          
+         </div>
+         
+         
+     </header>
+ 
+         <nav id = "navbar" style=" position: sticky; top: 0; left: 0; opacity: 0.8;z-index: 100000;">
+         <ul class="container">
+           <li><a href="index.html">Home</a></li>
+           <li>
+             <select class="destinations" onchange="location=this.value;">
+               <option id="defaultOptionDestinations" selected>Destinations</option>
+               
+               <option value="lab.html">Labs</option>
+               <!-- <option value="library.html">Library</option> -->
+               <option value="athelete.html">Athlete Centre</option>
+               <option value="canteen.html">Canteen</option>
+               <option value="outside.html">Outside school</option>
+             </select>
+           </li>
+           <li>
+             <select class="activities" onchange="location=this.value;">
+               <option id="defaultOptionActivities" selected>Activities</option>
+               <option selected value="clubs.html">Clubs</option>
+               <option value="event.html">Events</option>
+               <option value="event.html#boardGame">Board Game</option>
+             </select>
+           </li>
+           <li><a href="learning.html">Learning</a></li>
+           <li><a href="about.html">About Us</a></li>
+           
+         </ul>
+       </nav>
+     </header>
+
+    <div class = "container1">
+        <div class="text_container">
+            <h2>UCSY<br>Clubs</h2>
+        </div>
+        <div class = "image_container">
+            <div class = "imgbox">
+                <img src ="images/photo_2024-03-04_15-03-30.png" alt = "user pic">
+            </div>
+            <span class = "animblob"></span>
+        </div>
+    </div>
+
+    <div class = "icons">
+        <a href="#soccer" onclick="smoothScroll(event, document.getElementById('soccer'))">
+            <i class="fa-solid fa-futbol"><span >Soccer</span></i>
+        </a><br>
+        <a href="#badminton" onclick="smoothScroll(event, document.getElementById('badminton'))">
+            <i class="fa-solid fa-spoon"><span>Badminton</span></i>
+        </a><br>
+        <a href="#table-tennis" onclick="smoothScroll(event, document.getElementById('table-tennis'))">
+            <i class="fa-solid fa-table-tennis-paddle-ball"><span>T-Tennis</span></i>
+        </a>
+        <a href="#chess" onclick="smoothScroll(event, document.getElementById('chess'))">
+            <i class="fa-solid fa-chess"><span>Chess</span></i>
+        </a><br>
+        <a href="#e-sports" onclick="smoothScroll(event, document.getElementById('e-sports'))">
+            <i class="fa-solid fa-gamepad" ><span>E-sports</span></i>
+        </a><br>
+        <a href="#business" onclick="smoothScroll(event, document.getElementById('business'))">
+            <i class="fa-solid fa-briefcase"><span>Business</span></i>
+        </a>
+        <a href="#music" onclick="smoothScroll(event, document.getElementById('music'))">
+            <i class="fa-solid fa-music"><span>Music</span></i>
+        </a><br>
+        <a href="#dance" onclick="smoothScroll(event, document.getElementById('dance'))">
+            <i class="fa-solid fa-disease"><span>Dance</span></i>
+        </a><br>
+        <a href="#photo" onclick="smoothScroll(event, document.getElementById('photo'))">
+            <i class="fa-solid fa-camera"><span>Photo</span></i>
+        </a>
+    </div>
+
+    <div class="container2">
+        <h1>    <h1>
+        <div class="right">
+            <h9 style="display: block;margin-left: auto;margin-right: auto;width: 60%; margin-bottom: 30px;">Welcome To Our UCSY's Clubs</h9>
+            <br>
+            <p style="margin-bottom: 30px;"> Here you will find information about the different clubs that you can join, their activities, and how to contact them. Joining a club is a great way to meet new people, learn new skills, and have fun. Whether you are interested in sports, arts, culture, or academics, there is a club for you. To join a club, you need to fill out a simple form.We hope you enjoy your time at the university and find a club that suits your interests and passions.</p>
+            
+        </div>
+    </div>
+    <div class="container2" id = "soccer">
+        
+        <div class="left">
+            <img src="images/soccer.jpg" class="center1">
+        </div>
+        <div class="right">
+            <br><br><br><br><br>
+            <h8>Soccer Club</h8>
+            <br><br><br><br>
+            <p> By joining our club, you embark on an exciting journey filled with thrilling matches, unforgettable victories, and a camaraderie that lasts a lifetime.If you have a passion for football, you’ll find joining our club to be an exhilarating experience of learning, playing, and growing with the sport. So why wait? Lace up your boots, join the club, and let’s create some unforgettable football moments together.
+            Enjoy your time in the club. </p>
+            
+        </div>
+    </div>
+     <div class="container2" id = "badminton">
+
+        <div class="right">
+            <img src="images/badminton1.jpg" class="center2">
+        </div>
+        <div class="left">
+            <br><br><br><br><br>
+            <h7>Badminton Club</h7>
+            <br><br><br>
+            <p> Welcome to our Badminton Club, a lively community where enthusiasm meets agility. By becoming a member, you step into an exciting world filled with fast-paced matches.If you have a passion for badminton, you’ll find joining our club to be a thrilling journey of learning, playing, and growing with the sport. So why wait? Grab your racket, join the club.badminton is not just about the game, it’s about the joy, the community, and the shared love for the sport.</p>
+            
+        </div>
+    </div>
+     <div class="container2" id = "table-tennis">
+        
+        <div class="left">
+            <img src="images/ttt.jpg" class="center3">
+        </div>
+        <div class="right">
+            <br><br><br><br><br><br>
+            <h6>Table Tennis Club</h6>
+            <br><br><br>
+            <p> Welcome to the exhilarating world of table tennis! Our table tennis clubs are not just venues for the sport; they are vibrant communities of individuals who share a love for this fast-paced game.Our clubs provide a welcoming and encouraging environment where you can enjoy table tennis at any level.So, come and join us! Experience the fun, the friendship, and the thrill of table tennis. We’re excited to welcome you to our club.</p>
+            
+        </div>
+    </div>
+     <div class="container2" id = "chess">
+        
+        <div class="right">
+            <img src="images/cc.jpg" class="center4">
+        </div>
+        <div class="left">
+            <br><br><br><br><br>
+            <h5>Chess Club</h5>
+            <br><br><br>
+            <p> Welcome to the fascinating world of chess! Our chess clubs are not just places to play; they are vibrant communities of individuals who share a deep appreciation for this strategic game.Joining a chess club is a rewarding experience. It’s not just about improving your opening moves or mastering endgame strategies. Whether you’re a beginner learning the basics or an advanced player seeking a worthy opponent, there’s a place for you here.Experience the fun and the thrill of chess. We’re looking forward to welcoming you to our club</p>
+            
+        </div>
+    </div>
+     <div class="container2" id = "e-sports">
+        
+        <div class="left">
+            <img src="images/e.jpg" class="center5">
+        </div>
+        <div class="right">
+            <br><br><br><br><br><br>
+            <h4>E-sports Club</h4>
+            <br><br><br><br>
+            <p> Joining an e-sports club is an exhilarating journey.Our e-sports clubs are not just platforms for gaming; they are vibrant communities of individuals who share a passion for competitive gaming. It’s not just about leveling up your character or mastering game strategies. It’s about the thrill of competition, the satisfaction of achieving a team victory, and the joy of connecting with fellow gamers.So, come and join us! Experience the fun, the friendship, and the thrill of e-sports. We’re excited to welcome you to our club!</p>
+            
+        </div>
+    </div>
+     <div class="container2" id = "business">
+        
+        <div class="right">
+            <img src="images/b.jpg" class="center6">
+        </div>
+        <div class="left">
+            <br><br><br><br><br>
+            <h3>Business Club</h3>
+            <br><br><br><br>
+            <p> Our business clubs are not just platforms for networking; they are vibrant communities of individuals who share a passion for entrepreneurship and innovation.It’s not just about expanding your professional network or mastering business strategies. It’s about the thrill of innovation, the satisfaction of seeing your ideas come to life, and the joy of connecting with like-minded professionals.So, come and join us! 
+
+</p>
+            
+        </div>
+    </div>
+     <div class="container2" id = "music">
+        <div class="left">
+            <img src="images/o.jpg" class="center7">
+        </div>
+        <div class="right">
+            <br><br><br><br><br><br>
+            <h2>Music Club</h2>
+            <br><br><br>
+            <p>Welcome to our Music Club, a harmonious haven for all music enthusiasts! Our club is a vibrant community of musicians and music lovers, united by our shared passion for melody, rhythm, and harmony.Our members have the opportunity to participate in various activities such as workshops, performances,and other unversity's events . Whether you’re an experienced musician or just starting your musical journey, our Music Club offers an enriching experience that resonates with the universal language of music. Join us and let’s make beautiful music together! 🎵
+  </p>
+            
+        </div>
+    </div>
+     <div class="container2" id = "dance">
+        <div class="left">
+            <img src="images/dance.jpg" class="center8">
+        </div>
+        <div class="right">
+            <br><br><br><br><br><br>
+            <h1>Dance Club</h1>
+            <br><br><br>
+            <p> Welcome to our Dance Club, a dynamic space where rhythm meets movement! Our club is a diverse community of dance enthusiasts, brought together by our shared love for expression through dance. We embrace a variety of dance styles.Whether you’re a seasoned dancer or just stepping into the dance floor, our Dance Club offers an enriching experience that celebrates the joy and freedom of dance. Join us and let’s dance to the rhythm of life! </p>
+            
+        </div>
+    </div>
+    <div class="container2" id = "photo">
+        <div class="left">
+            <img src="images/po-removebg-preview.jpg" class="center9">
+        </div>
+        <div class="right">
+            <br><br><br><br><br><br>
+            <h0>Photo Club</h0>
+            <br><br><br>
+            <p> Welcome to our Photo Club, a creative hub for all photography enthusiasts!We cater to a wide range of photographic interests, from landscape and portrait to abstract and experimental photography. Whether you’re a seasoned photographer or just starting your journey in photography, our Photo Club offers an enriching experience that celebrates the power of visual storytelling. Join us and let’s capture the world in its myriad hues! </p>
+            
+        </div>
+    </div>
+
+    <script src="js/optimization.js"></script>
+
+</body>
+</html>

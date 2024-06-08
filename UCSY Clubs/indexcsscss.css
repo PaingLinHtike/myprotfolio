@@ -1,0 +1,372 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.4s ease;
+  box-sizing: border-box;
+}
+
+/* ===== Colours ===== */
+:root {
+  --body-color: #e4e9f7;
+  --nav-color: #D4AC0D;
+  --side-nav: #010718;
+  --text-color: #fff;
+  --search-bar: #f2f2f2;
+  --search-text: #010718;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--body-color);
+}
+
+body.dark {
+  --body-color: #18191a;
+  --nav-color: #242526;
+  --side-nav: #242526;
+  --text-color: #ccc;
+  --search-bar: #242526;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  z-index: 100;
+  font-family: "Poppins".sans-serif;
+}
+
+nav .nav-bar {
+  position: absolute;
+  height: 100%; 
+  width: 100%;
+  background-color: #F9DF8D;
+  margin: 0 auto;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .nav-bar .logo a {
+ color: black;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      padding-right: 150px;
+}
+
+.nav-bar .nav-links {
+  display: flex;
+  justify-content: center; /* Justify content to the center */
+  margin-right: -10px;
+  margin-top: -30px; /* Remove the previous padding */
+}
+
+.nav-bar .nav-links li {
+  margin-top: 20px;
+  list-style: none;
+  padding-top: 20px;
+}
+.nav-bar .nav-links a:hover {
+  background-color: rgb(226,226,226);
+  border-radius: 20px;
+}
+.nav-links li a {
+  position: relative;
+  font-size: 17px;
+  font-weight: 400;
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+  height: 70px;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.nav-links li a::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 3px;
+  width: 6px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.3s ease;
+
+}
+.btn {
+  width: 100%;
+  height: 10px;
+  background-color:#F9DF8D;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1em;
+  color: black;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.input-box .icon {
+  position: absolute;
+  right: 8px;
+  font-size: 1.2em;
+  color: black;
+  line-height: 57px;
+}
+
+.nav-links li:hover a::before {
+  opacity: 1;
+}
+
+button {
+  width: 100%;
+  height: 35px;
+  background: black;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 2em;
+  color: white;
+  font-weight: 500;
+  font-size: 1em;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btnlog {
+  position: relative;
+  font-size: 17px;
+  font-weight: 400;
+  color: black;
+  text-decoration: none;
+  border-style: none;
+  border-width: 50px;
+  background-color: #F9DF8D;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.btnlog:hover {
+  background: rgb(226,226,226);
+  color: black;
+  text-decoration: none;
+  width: 110px;
+  height: 30px;
+  border-radius: 20px;
+
+}
+
+.container{
+        width: 100vmin;
+        overflow: hidden;
+    }
+    .wrapper{
+        width: 100%;
+        height: 100%;
+        display: flex;
+     position: absolute;
+     animation: slide 20s infinite;
+    }
+    @keyframes slide{
+        10%{
+            transform: translateX(0);
+        }
+        20%{
+            transform: translateX(0);
+        }
+        30%{
+            transform: translateX(-100%);
+        }
+         40%{
+            transform: translateX(-100%);
+        }
+         50%{
+            transform: translateX(-200%);
+        }
+         60%{
+            transform: translateX(-200%);
+        }
+         70%{
+            transform: translateX(-300%);
+        } 
+        80%{
+            transform: translateX(-300%);
+        }
+         90%{
+            transform: translateX(-400%);
+        }
+         100%{
+            transform: translateX(-400%);
+        }
+        .dropbtn {
+  background-color: #F9DF8D;
+  color: black;
+  padding: 1px;
+  font-size: 17px;
+  border-style: none;
+  cursor: pointer;
+  padding-right: 80px;
+  padding-left: 10px;
+  height: 27px;
+}
+}
+
+.dropbtn:hover {
+  background-color: rgb(226,226,226);
+  border-radius: 20px;
+  width: 40px;
+  height: 27px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: black;
+  background-color:  #F9DF8D;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: hidden;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: #F9F8D2;
+  width: 10px;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    left: 0;
+    top: 200px;
+    width: 100%;
+}
+
+.social-icons {
+    position: relative;
+padding-left:70px;
+    margin-top: 120px;
+}
+
+.icon {
+    color: black;
+    text-decoration: none;
+    margin: 0 30px;
+  padding: -10px;
+}
+
+.icon i {
+    font-size: 25px;
+        color: white;
+      }
+
+.icon i:hover {
+    color: #F9DF8D;
+}
+.club-icons {
+    position: relative;
+ margin-left: 660px;
+  }
+  .text{
+    margin-bottom: 20px;
+    margin-left: 600px;
+    font-size: 1em;
+  }
+  .icon1 i {
+    font-size: 25px;
+        color: white;
+        margin-top: 5px;
+      }
+.icon1{
+  padding-right: 30px;
+  margin-left: 32px;
+    margin-top: 50px;
+}
+.icon1 i:hover {
+    color: #F9DF8D;
+    }
+h2{
+  padding-top: 800px;
+  margin-left: 20px;
+  font-size: 2.8em;
+}
+p{
+  padding-top: 20px;
+  text-indent: 50px;
+  line-height: 1.9;
+    margin-left: 40px;
+      margin-right: 40px;
+      font-size: 1.3em;
+}
+.txt{
+  color: cyan;
+  font-size: 1.2em;
+}
+.txt2{
+  color: orange;
+  font-size: 1.2em;
+}
+.txt3{
+  color: pink;
+  font-size: 1.2em;
+}
+.txt4{
+  color: blue;
+  font-size: 1.2em;
+}
+.txt5{
+  color: red;
+  font-size: 1.2em;
+}
+.pra{
+  font-style: oblique;
+}

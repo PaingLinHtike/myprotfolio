@@ -1,0 +1,534 @@
+header{
+	background-color: #FCC3D8;
+	padding:10px;
+
+}
+body{
+	margin: 0px;
+	background-color:white; 
+	
+}
+h1{
+	
+	font-size:40px;
+}
+body{
+	margin: 0px;
+	background:white; 
+	
+	font-size: 20px;
+}
+nav ul li{
+	display:inline;
+	margin:20px;
+
+}
+nav a {
+    text-decoration: none;
+    
+    font-weight: bold;
+}
+nav a:hover{
+    text-decoration: none;
+    color: #F05AAC;
+    font-weight: bold;
+}
+.imb{
+	background-color:#FECBDE;
+	height:500px;
+	position:relative;
+  border-radius: 30px;
+  width:1000px;
+  left:170px;
+  top:140px;
+box-shadow: 0px 2px 10px #00000024;
+	
+	
+	
+}
+.maimg{
+	position:absolute;
+	right:50px;
+	top:100px;
+
+}
+.imba{
+	text-indent: 40px;
+	margin-left: 10px;
+	font-size: 28px;
+	width:670px;
+	position:absolute;
+	bottom:60px;
+
+}
+.wel{
+	font-size: 60px;
+	text-indent: 0px;
+	position:absolute;
+	bottom:90px;
+	left:80px;
+}
+.img{
+	position: relative;
+	top:20px;
+	left:100px;
+	
+}
+.aaa{
+	margin-right: 70px;
+	margin-left: 5px;
+	position:absolute;
+	top:1620px;
+	left:600px;
+	font-size:25px;
+	line-height: 1.3;
+  text-indent: 50px;
+  
+  height:560px
+  width:100%;
+}
+.aa1{
+  position:absolute;
+  top:-50px;
+  left:70%;
+  font-size:50px;
+}
+
+
+.img1{
+	position:relative;
+	left:20px;
+	top:40px;
+  
+
+	
+}
+.para{
+  position:absolute;
+  top:900px;
+  left:880px;
+}
+.welpara{
+  width:800px;
+  position:absolute;
+  left:50px;
+  top:1000px;
+  font-size: 25px;
+  text-indent: 50px;
+  line-height: 1.3;
+}
+.ww{
+  position:absolute;
+  left:25%;
+  font-size:60px;
+  top:780px;
+  color: #FF83C7;
+}
+.abc{
+	width:400px;
+	height:400px;
+	position:absolute;
+	border:2px solid #F05AAC;
+	border-radius: 30px;
+	left:30%;
+}
+div.gal {
+
+  width:350px;
+  height:220px;
+  
+}
+
+.ab1{
+  position:relative;
+  top:120px;
+}
+.bb{
+  position:absolute;
+  width:100%;
+  top:1550px;
+  background-color:white;
+  height:562px;
+ 
+
+}
+.tp{
+  position:absolute;
+  top:2150px;
+  left:25%;
+}
+
+
+
+div.desc {
+  padding: 20px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.aa{
+	font-size:25px;
+ text-align: center;
+  
+
+}
+
+
+.ab1{
+	padding-top:80px;
+	
+}
+.ab5{
+	position:absolute;
+	bottom:420px;
+	right:45%;
+	background-color: #FBA3D2;
+	width:130px;
+	height:40px;
+	padding-left:30px;
+	padding-top: 4px;
+	border-radius: 20px;
+}
+.ab6{
+  width:550px;
+  position:absolute;
+  top:190px;
+  left:190px;
+  text-indent: 50px;
+}
+.bb1{
+  position:absolute;
+  right:700px;
+  top:830px;
+}
+
+.ab4{
+
+	position:absolute;
+	font-size:60px;
+	bottom:315px;
+	right:30%;
+	text-align: center;
+	line-height: 0.9;
+}
+div.ab7 {
+  margin: 5px;
+  
+  position:absolute;
+  
+  bottom:-570px;
+  right:1000px;
+  
+  background-color: white;
+}
+
+
+
+div.ab7 img {
+  width: 250px;
+  height: 320px;
+ padding-top:3px;
+  padding-left:2px; 
+}
+
+div.ab8 {
+  padding: 15px;
+  text-align: center;
+}
+.ab9{
+	margin-right: 100px;
+	margin-left: 5px;
+	position:absolute;
+	top:740px;
+	left:480px;
+	font-size:25px;
+	line-height: 1.3;
+
+}
+.ab10{
+	font-size:30px;
+  position:absolute;
+  top:70px;
+  left:510px;
+  width:250px;
+}
+
+.ab11{
+	position:relative;
+	top:500px;
+}
+
+
+
+button{
+	background-color:#F8F4EC;
+	border: 1px solid #E31281;
+	width:180px;
+	color:#E31281;
+
+
+}
+button:hover{
+	background-color: #F05AAC;
+	color:#FFBCE1;
+}
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.wrapper {
+	padding:20px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+      .profileWidget{
+        @include centerView();
+        width: 365px;
+        height: auto;
+        min-height:400px;
+        background: #FFCEE9;
+        text-align: center;
+        color: #FCC3D8;
+        box-shadow: 0px 2px 10px #00000024;
+        border-radius: 20px;
+          .profileBanner1{
+            width: 100%;
+            height: 260px;
+            background-image: url('founder12.jpg');
+            background-size: cover;
+            background-position: 50% 2%;
+            position: relative;
+            clip-path: square;
+           
+             
+          }
+          .profileBanner2{
+            width: 100%;
+            height: 260px;
+            background-image: url('founder22.jpg');
+            background-size: cover;
+            background-position: 50% 16%;
+            position: relative;
+            clip-path: square;
+            
+             
+          }
+          h5{
+           
+    margin-top: 0px;
+    font-size: 22px;
+    position: relative;
+    top:40px;
+            &:after{
+                position: absolute;
+                content: "";
+                width: 12%;
+                height: 2px;
+                background: #fff;
+                bottom: -5px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+          }
+          p{
+            margin-top: 55px;
+            margin-bottom: 30px;
+          }
+
+          
+              }
+          }
+
+
+
+      }
+
+
+}
+
+.galler {
+  --s: 130px; /* control the size of the images*/
+  
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  gap: 5px;
+  position: relative;
+}
+.galler input {
+  position: absolute;
+  border: 2px solid #000;
+  border-radius: 50%;
+  inset: calc(50% - var(--s)/3);
+  cursor: pointer;
+  --g: linear-gradient(#000 0 0) no-repeat;
+  background: var(--g) 50%/var(--b,0%) 3px,var(--g) 50%/3px var(--b,0%);
+  transition: 1.5s;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.galler > img {
+  width: var(--s);
+  aspect-ratio: 1;
+  object-fit: cover;
+  transform: scale(.1);
+  filter: brightness(0);
+  pointer-events: none;
+  transform-origin: var(--x) var(--y);
+  transition: 1s calc((var(--i) - 1)*.1s);
+}
+.galler > img:nth-of-type(1) {--i:1;--x: 150%;--y:150%;}
+.galler > img:nth-of-type(2) {--i:2;--x:  50%;--y:150%;}
+.galler > img:nth-of-type(3) {--i:3;--x: -50%;--y:150%;}
+.galler > img:nth-of-type(4) {--i:4;--x: 150%;--y:50%; }
+.galler > img:nth-of-type(5) {--i:5 }
+.galler > img:nth-of-type(6) {--i:6;--x: -50%;--y:50%; }
+.galler > img:nth-of-type(7) {--i:7;--x: 150%;--y:-50%;}
+.galler > img:nth-of-type(8) {--i:8;--x:  50%;--y:-50%;}
+.galler > img:nth-of-type(9) {--i:9;--x: -50%;--y:-50%;}
+
+.galler > input:checked ~ img {
+  transform: scale(1);
+  filter: brightness(1);
+  pointer-events: initial;
+}
+.galler > input:checked {
+  transform: translateY(calc(1.75*var(--s))) scale(.5) rotate(45deg);
+  --b: 70%;
+}
+
+
+.navbar{
+	/*position:-webkit-sticky;
+	position:sticky;
+	top:0;
+	z-index:4000;*/
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.club {
+ text-align: left;
+ font-size:40px;
+ position:absolute;
+ left:2%;
+ top:20px;
+}
+*{
+  font-family: "Bahnschrift Condensed",sans-serif;
+  color:black;
+
+}
+.photo{
+  width:350px;
+  height: 270px;
+  padding:10px;
+  border:3px solid #FCC3D8;
+  
+
+}
+#fs{
+   box-shadow: 0px 2px 10px #00000024;
+  background-color: white;
+}
+.tb{
+  font-weight: 700;
+}
+.sub{
+  color:black;
+  padding-left:20px;
+  text-decoration: none;
+}
+button{
+  background-color:#FCC3D8;
+  border-color:#F05AAC;
+  color:#F05AAC;
+
+}
+button:hover{
+  background-color:#F05AAC;
+  color:#FCC3D8;
+}
+#bbb{
+  position: relative;
+  left:30px;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    left: 0;
+    top: 200px;
+    width: 100%;
+}
+
+.social-icons {
+    position: relative;
+padding-left:70px;
+    margin-top: 120px;
+}
+
+.icon {
+    color: black;
+    text-decoration: none;
+    margin: 0 30px;
+  padding: -10px;
+}
+
+.icon i {
+    font-size: 25px;
+        color: white;
+      }
+
+.icon i:hover {
+    color: #F9DF8D;
+}
+.club-icons {
+    position: relative;
+ margin-left: 660px;
+  }
+  .text1{
+    margin-bottom: 20px;
+    margin-left: 600px;
+  }
+  .icon1 i {
+    font-size: 25px;
+        color: white;
+        margin-top: 5px;
+      }
+.icon1{
+  padding-right: 30px;
+  margin-left: 32px;
+    margin-top: 50px;
+}
+.icon1 i:hover {
+    color: #F9DF8D;
+} 
+.foot{
+  position:absolute;
+  width:100%;
+  top:2500px;
+}
+.foot1{
+  position:absolute;
+  width:100%;
+  top:500px;
+}
+.foot2{
+  position:absolute;
+  width:100%;
+  top:1000px;
+}

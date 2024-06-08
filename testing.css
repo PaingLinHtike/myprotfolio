@@ -1,0 +1,219 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 98%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav-left .nav-link {
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.nav-left .nav-link:hover {
+    color: #1703f0;
+}
+
+.nav-right {
+    margin-right: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 20px;
+}
+
+#home {
+    margin: 0;
+}
+
+.myImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.icon-container i {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.html-icon {
+    color: #E34F26;
+}
+
+.css-icon {
+    color: #1572B6; 
+}
+
+.bootstrap-icon {
+    color: #563D7C;
+}
+
+.js-icon {
+    color: #F7DF1E;
+}
+
+.react-icon {
+    color: #61DAFB; 
+}
+
+#about {
+    margin: 0;
+}
+
+.myLaptop {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    object-fit: fill;
+}
+
+/*Project*/
+
+#projects {
+    margin: 0;
+}
+
+.blue{
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.pHeading{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.pContent{
+    text-align: center;
+    font-size: 18px;
+}
+
+.myProjectImg {
+    width: 500PX;
+    height: 250PX;
+    object-fit: fill;
+}
+
+/*Contact*/
+
+/* .contact-container {
+
+            text-align: center;
+        }
+.contact-image {
+            width: 500PX;
+            height: 250PX;
+            object-fit: fill;
+        }
+.contact-form {
+            margin-top: 20px;
+        }
+
+        input[type="text"], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 3px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        label {
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+        }
+
+        .button {
+            background-color: #1c87c9;
+            color: white;  
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        } */
+
+    .contact-image{
+        width: 500PX;
+        height: 250PX;
+        object-fit: fill;
+    }
+    .form-container {
+            width: 100%;
+            max-width: 500px;
+            padding: 20px;
+            border-radius: 8px;
+    }
+    .form-group {
+            margin-bottom: 15px;
+    }
+    .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+    }
+    .form-group input, .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+    }
+    .form-group input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+    }
+    .form-group input[type="submit"]:hover {
+            background-color: #0056b3;
+    }
+        /* .form-container {
+            width: 100%;
+            max-width: 500px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            background-color: #fff;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .form-group input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+         */

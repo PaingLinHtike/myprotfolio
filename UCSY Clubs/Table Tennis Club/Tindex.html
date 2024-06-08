@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Table Tenis Club</title>
+    <link rel="stylesheet" href="Tstyles.css" />
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="Image/favcion.png" type="image/x-icon">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- /*Navigation Bar*/ -->
+    <nav>
+      <div class="navbar">
+        <i class="bx bx-menu"></i>
+        <img src="Image/logo.png" alt="" class="logo"style="height: 100%;
+    width: 80px;">
+        <div class="logo"><a href="Tindex.html">UCSY Table Tennis Club</a></div>
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name"></span>
+            <i class="bx bx-x"></i>
+          </div>
+          <ul class="links">
+            <li><a href="Tindex.html">HOME</a></li>
+            <li>
+              <a href="#services" href="#Tindex.html">Service</a>
+              <!-- <i class="bx bxs-chevron-down htmlcss-arrow arrow"></i> -->
+              <ul class="htmlCss-sub-menu sub-menu">
+                <li><a href="#services" style="">Coaching Services</a></li>
+                <li><a href="#services">Equipment Services</a></li>
+                <li><a href="#services  ">Training Camps</a></li>
+                <li class="more"></li>
+              </ul>
+            </li>
+            <li><a onclick="changePage1()">About Us</a></li>
+            <li class="page-link"><a href="TLogin.html">Register</a></li>
+          </ul>
+        </div>
+        <!-- <div class="search-box">
+          <i class="bx bx-search"></i>
+          <div class="input-box">
+            <input type="text" placeholder="Search..." />
+          </div> -->
+        </div>
+      </div>
+    </nav>
+
+    <!-- /*Image Slider*/ -->
+    <div class="slider-container">
+      <div class="slides">
+        <div class="slide">
+          <img src="Image/1.jfif" alt="Image 1" style="width:247px; height: 165px;" />
+          <img src="Image/2.jfif" alt="Image 1" style="width:247px; height: 165px;"/>
+          <img src="Image/3.jfif" alt="Image 1" style="width:248px; height: 165px;"/>
+          <img src="Image/4.jfif" alt="Image 1" style="width:248px; height: 165px;"/>
+          <img src="Image/5.jfif" alt="Image 1" style="width:248px; height: 165px;"/>
+        </div>
+        <div class="slide">
+          <img src="Image/6.jfif" alt="Image 2" style="width:247px; height: 165px;"/>
+          <img src="Image/7.jfif" alt="Image 2" style="width:247px; height: 165px;"/>
+          <img src="Image/8.jfif" alt="Image 2" style="width:248px; height: 165px;"/>
+          <img src="Image/9.jfif" alt="Image 2" style="width:248px; height: 165px;"/>
+          <img src="Image/10.jfif" alt="Image 2" style="width:248px; height: 165px;"/>
+        </div>
+        <div class="slide">
+          <img src="Image/11.jfif" alt="Image 3" style="width:247px; height: 165px;"/>
+          <img src="Image/12.jfif" alt="Image 3" style="width:247px; height: 165px;"/>
+          <img src="Image/13.jfif" alt="Image 3" style="width:248px; height: 165px;"/>
+          <img src="Image/14.jfif" alt="Image 3" style="width:248px; height: 165px;"/>
+          <img src="Image/15.jfif" alt="Image 3" style="width:248px; height: 165px;"/>
+        </div>
+        <div class="slide">
+          <img src="Image/16.jfif" alt="Image 3" style="width:247px; height: 165px;"/>
+          <img src="Image/17.jfif" alt="Image 3" style="width:247px; height: 165px;"/>
+          <img src="Image/18.jfif" alt="Image 3" style="width:248px; height: 165px;"/>
+          <img src="Image/19.jfif" alt="Image 3" style="width:248px; height: 165px;"/>
+          <img src="Image/20.jfif" alt="Image 3" style="width:248px; height: 165px;"/>
+        </div>
+      </div>
+      <button class="slide-btn prev" onclick="changeSlide(-1)">❮</button>
+      <button class="slide-btn next" onclick="changeSlide(1)">❯</button>
+    </div>
+
+    <!-- Big Image Slider -->
+    <div class="custom-slider-container">
+      <div class="custom-slider">
+        <div class="custom-slide">
+          <img src="Image/big1.jpg" alt="Slide 1" />
+          <div class="custom-slide-content">
+            <h1 class="my1">Fitness studio for your success</h1>
+            <p class="my2">
+              Take your fitness goals to the next level and unlock success from
+              within.
+            </p>
+          </div>
+        </div>
+        <div class="custom-slide">
+          <img src="Image/big2.jpg" alt="Slide 2" />
+          <div class="custom-slide-content">
+            <h1 class="my1">
+              Unleash the potential within you at our fitness studio, where
+              dedication transforms into achievement.
+            </h1>
+            <p class="my2">
+              Elevate your wellness journey and embrace success every step of
+              the way.
+            </p>
+          </div>
+        </div>
+        <div class="custom-slide">
+          <img src="Image/big3.jpg" alt="Slide 3" />
+          <div class="custom-slide-content">
+            <h1 class="my1">
+              Step into a realm of fitness excellence, where every drop of sweat
+              becomes a testament to your commitment.
+            </h1>
+            <p class="my2">
+              Your success story begins here ignite the fire within and conquer
+              your fitness goals.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="custom-prev">&lt;</button>
+      <button class="custom-next">&gt;</button>
+    </div>
+
+    <!-- Services -->
+    <header>
+      <h1>Services</h1>
+      <p>All our available services at the moment for you!</p>
+    </header>
+    <main>
+      <section class="services" id="services">
+        <img src="Image/Coaching Services.jfif" alt="" class="image" />
+        <h2>Coaching Services</h2>
+        <p>🚀 Elevate your table tennis game with our coaching expertise!</p>
+      </section>
+      <section class="services">
+        <img src="Image/Equipment Services.jfif" alt="" class="image" />
+        <h2>Equipment Services</h2>
+        <p>🏓 Upgrade Your Gear for Peak Performance!</p>
+      </section>
+      <section class="services">
+        <img src="Image/Training Camp.jfif" alt="" class="image" />
+        <h2>Training Camp Services</h2>
+        <p>🌟 Upgrade Your Gear for Peak Performance!</p>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+    <p style="margin-right: 750px;
+    margin-bottom: -30px; padding-top: 10px">&copy; 2024 UCSY clubs & Activities</p>
+    <p class="text" style="margin-bottom: 100px; padding-top: 10px;">Hot Line No: 01 7624 83</p>
+</footer>
+
+<div class="social-icons"style="margin-right: 800px;
+    margin-bottom: -30px;">
+    <a href="https://www.facebook.com/ucsygn/" class="icon"><i class="fab fa-facebook-f fa-2x"></i></a>
+    <a href="https://twitter.com/ucsygn?lang=en" class="icon"><i class="fab fa-twitter fa-2x"></i></a>
+    <a href="https://moodle.ucsy.edu.mm/login/index.php" class="icon"><i class="fas fa-book fa-2x"></i></a>
+    <a href="https://www.ucsy.edu.mm/" class="icon"><i class="fab fa-google fa-2x"></i></a>
+</div>
+<div class="club-icons">
+        <a href="D:\Official HTML PJ\MainPage\MainPage\index1.html" class="icon1"><i class="fas fa-home fa-2x"></i></a>
+    <a href="D:\Official HTML PJ\basketball club\basketballclub.html" class="icon1"><i class="fas fa-basketball-ball fa-2x"></i></a>
+<a href="D:\Official HTML PJ\football\FHome" class="icon1"><i class="fas fa-football-ball fa-2x"></i></a>
+<a href="D:\Official HTML PJ\Esports\Ehome" class="icon1"><i class="fas fa-gamepad fa-2x"></i></a>
+<a href="D:\Official HTML PJ\Table Tennis Club\Tindex.html" class="icon1"><i class="fas fa-table-tennis fa-2x"></i></a>
+<a href="D:\Official HTML PJ\danceclub\danmain.html" class="icon1"><i class="fas fa-music"></i></a></div>
+    <script src="Tscript.js"></script>
+  </body>
+</html>

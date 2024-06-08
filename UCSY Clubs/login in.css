@@ -1,0 +1,122 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("imageucsy.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  z-index: 100;
+}
+
+nav .nav-bar {
+  position: absolute;
+  height: 100%; 
+  width: 100%;
+  background-color: #F9DF8D;
+  margin: 0 auto;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .nav-bar .sidebarOpen {
+  color: var(--text-color);
+  font-size: 25px;
+  padding: 5px;
+  cursor: pointer;
+  display: none;
+}
+
+nav .nav-bar .logo a {
+ color: black;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      padding-left: 20px;
+}
+
+.container {
+    width: 300px;
+    height: 400px;
+  background-color: #F9DF8D;
+    padding: 20px;
+  border: 2px solid rgb(255,255,255, .5);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(0,0,0,.5);
+    margin-left: 450px;
+    margin-top: 130px;
+}
+
+h2 {
+font-size: 1.5em;
+  text-align: center;
+    font-family: "Poppins", sans-serif;
+
+}
+
+form {
+  margin-bottom: 40px;
+}
+
+input {
+  display: block;
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+    height: 50px;
+  padding: 4px;
+  box-sizing: border-box;
+  border-bottom: 2px solid black;
+  margin: 30px 0; 
+  border-radius: 4px;
+  font-size: 1em;
+}
+button {
+  width: 95%;
+  height: 45px;
+  background: black;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  color: white;
+  font-weight: 500;
+  font-size: 1em;
+  justify-content: space-around;
+  color: white;
+font-family: "Poppins", sans-serif;
+
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
+p{
+  font-size: .9em;
+  font-weight: 100px;
+}
+.btn1{
+  color: white;
+
+}

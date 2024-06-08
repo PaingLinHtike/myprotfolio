@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="dan12.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
+    <link rel="icon" href="danb.png" type="image/x-icon">
+    
+</head>
+<body>
+    <header class="navbar">
+        <div class="club" >Dance Club&nbsp;<i class="fa-solid fa-music" style="font-size:30px" ></i></div>
+        <nav>
+            <ul align="right">
+                <li><a href="danmain.html">Home</a></li>
+                <li><a href="danabout.html">About Us</a></li>
+                <li><a href="danact.html">Activity</a></li>
+                <li><a href="danre.html"  style="color: #F05AAC;">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br><br><br><br><br>
+    <fieldset style="border-color: #FCC3D8; margin-right: 300px; margin-left: 300px; line-height: 1.5" id="fs">
+        <form name="basketball register" method="post" onsubmit="return validateForm()">
+        <h2 align="center">University Of Computer Studies, Yangon<br>Dance Club<br>Membership Application Form</h2><br>
+        <table>
+            <tr>
+                <td class="tb"><label for="lblname">Name:</label></td>
+                <td><input type="text" name="txtname" required></td>
+                <td rowspan="5"><img src="danicon.jpg" height="290px" id="bbb"></td>
+            </tr>
+            <tr>
+                <td class="tb"><label for="lblid">YKPT:</label></td>
+                <td><input type="text" name="txtid" pattern="[0-9]{5}" title="Please enter your YKPT" required></td>
+            </tr>
+            <tr>
+                <td class="tb"><label for="lblsem">Semester:</label></td>
+                <td>
+                    <select name="txtsem" required>
+                        <option value="">Select Semester</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="tb"><label for="lblph">Phone Number:</label></td>
+                <td><input type="tel" name="mobile" pattern="[0][9][0-9]{7,9}" required></td>
+            </tr>
+            <tr>
+                <td class="tb"><label for="lbldance">Types of the dance:<br>You interested</label></td>
+                <td><input type="text" name="txtdance" required></td>
+            </tr>
+        </table>
+        <br><br>
+            <div>Ma Htet Eaindra Shine(In Charge)</div>
+            <div>09 799390463</div>
+            <div>(telegram-@HtetEaindraShine9399)</div><br>
+            <div>Contact us for more information.</div><br>
+        <div class="sub" style="padding-left: 50px;"><button style="width:100px; height:40px;" type="submit" name="btninsert" value="Submit">Submit</button></div>
+        </form>
+    </fieldset>
+    <br><br>
+    <div class="foot2">
+<footer class="footer">
+    <p style="margin-right: 800px;
+    margin-bottom: -43px;  color:white;">&copy; 2024 UCSY Clubs & Activities</p>
+    <p class="text1" style="margin-bottom: 100px; color:white;">Hot Line No: 01 7624 83</p>
+</footer>
+
+<div class="social-icons"style="margin-right: 800px;
+    margin-bottom: -30px;">
+    <a href="https://www.facebook.com/ucsygn/" class="icon"><i class="fab fa-facebook-f fa-2x"></i></a>
+    <a href="https://twitter.com/ucsygn?lang=en" class="icon"><i class="fab fa-twitter fa-2x"></i></a>
+    <a href="https://moodle.ucsy.edu.mm/login/index.php" class="icon"><i class="fas fa-book fa-2x"></i></a>
+    <a href="https://www.ucsy.edu.mm/" class="icon"><i class="fab fa-google fa-2x"></i></a>
+</div>
+<div class="club-icons">
+        <a href="D:\Official HTML PJ\MainPage\MainPage\index1.html" class="icon1"><i class="fas fa-home fa-2x"></i></a>
+    <a href="D:\Official HTML PJ\basketball club\basketballclub.html" class="icon1"><i class="fas fa-basketball-ball fa-2x"></i></a>
+<a href="D:\Official HTML PJ\football\FHome.html" class="icon1"><i class="fas fa-football-ball fa-2x"></i></a>
+<a href="D:\Official HTML PJ\Esports\Ehome.html" class="icon1"><i class="fas fa-gamepad fa-2x"></i></a>
+<a href="D:\Official HTML PJ\Table Tennis Club\Tindex.html" class="icon1"><i class="fas fa-table-tennis fa-2x"></i></a>
+<a href="D:\Official HTML PJ\danceclub\danmain.html" class="icon1"><i class="fas fa-music"></i></a></div>
+</div>  
+<script>
+        function validateForm() {
+            var name = document.forms["basketball register"]["txtname"].value;
+            var id = document.forms["basketball register"]["txtid"].value;
+            var semester = document.forms["basketball register"]["txtsem"].value;
+            var phoneNumber = document.forms["basketball register"]["mobile"].value;
+            var danceType = document.forms["basketball register"]["txtdance"].value;
+
+            if (name == "" || id == "" || semester == "" || phoneNumber == "" || danceType == "") {
+                alert("Please fill out all required fields");
+                return false;
+            } else {
+                alert("Thank You for your submission");
+                return true;
+            }
+        }
+    </script>
+</body>
+</html>

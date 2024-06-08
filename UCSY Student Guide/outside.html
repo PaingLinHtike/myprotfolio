@@ -1,0 +1,789 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outside School</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<style >
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+
+}
+:root{
+    --bg-color: #F5F5F5;
+    --text-color: #221314;
+    --second-color: #5a7184;
+    --main-color: #6e54fa;
+    --big-font: 6rem;
+    --s-font: 5rem;
+    --hr-font: 3rem;
+    --p-font: 1.1rem;
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+section{
+    padding: 80px 18%;
+}
+.home {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/img21.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.home-text {
+        max-width: 600px;
+    margin: 0 auto;
+}
+
+.home-text h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
+}
+
+.home-btn {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    background-color: var(--main-color); /* Match the main color */
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.home-btn:hover {
+    background-color: #5e48e1; /* Darker shade of main color on hover */
+}
+
+
+.row-items{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, auto));    
+	grid-gap: 2rem;
+
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: -50px;
+}
+.container-box{
+    background: var(--bg-color);
+    border: 1px solid #f0eded;
+    padding: 30px 1px;
+    border-radius: 4px ;
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
+.container-img img{
+    height: 85px;
+    width: 85px;
+    padding: 1px;
+    background: var(--bg-color);
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    border-radius: 4px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+.container-box h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.container-box:hover{
+    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
+    border: 1px solid transparent;
+    transform: translateY(-3px);
+}
+.Pagoda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.Pagoda-img img {
+    margin-bottom: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 7px solid #F8F9F5;
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+
+.Pagoda-img img:hover {
+    transform: scale(1.1); /* Scale up image on hover */
+}
+
+.Pagoda-text {
+    margin-top: 40px;
+}
+
+.Pagoda-text h2 {
+    position: relative; 
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--main-color); /* Match the main color */
+}
+
+.Pagoda-text a {
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    background: var(--main-color); /* Match the main color */
+    color: #fff; /* White text color */
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Add transition for smooth color change */
+    text-decoration: none;
+}
+
+.Pagoda-text a:hover {
+    background: #5e48e1; /* Darker shade of main color on hover */
+}
+
+.Park {
+    padding: 80px 0;
+    text-align: center;
+    color: #63C5DA; /* Set text color */
+}
+
+.ptitle h2 {
+    font-size: 2.5rem;
+    color: #63C5DA; /* Set text color */
+    margin-bottom: 40px; /* Add margin bottom for spacing */
+}
+
+.p-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px; /* Add space between market boxes */
+    margin-top: 30px;
+}
+
+.pbox {
+    position: relative;
+    width: 300px;
+    background-color: #fff; /* Set background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    overflow: hidden; /* Prevent content overflow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transitions */
+}
+
+.pbox:hover {
+    transform: translateY(-5px); /* Move box up slightly on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Darken box shadow on hover */
+}
+
+.pthum {
+    width: 100%;
+    height: 200px; /* Set image container height */
+    overflow: hidden;
+    border-top-left-radius: 8px; /* Round top-left corner */
+    border-top-right-radius: 8px; /* Round top-right corner */
+}
+
+.pthum img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+
+.pbox:hover .pthum img {
+    transform: scale(1.1); /* Scale up image on hover */
+}
+
+.pdast-content {
+    padding: 20px;
+}
+
+.pLocation h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px; /* Add margin bottom for spacing */
+}
+
+.pLocation a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #5e48e1; /* Button text color */
+    border: 2px solid #5e48e1; /* Button border */
+    border-radius: 25px; /* Button border radius */
+    text-decoration: none;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.pLocation a:hover {
+    color: #3c2f97; /* Button text color on hover */
+    border-color: #3c2f97; /* Button border color on hover */
+}
+
+
+
+
+
+
+.Market {
+    padding: 80px 0;
+    text-align: center;
+    color: #63C5DA; /* Set text color */
+}
+
+.title h2 {
+    font-size: 2.5rem;
+    color: #63C5DA; /* Set text color */
+    margin-bottom: 40px; /* Add margin bottom for spacing */
+}
+
+.market-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px; /* Add space between market boxes */
+    margin-top: 30px;
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    background-color: #fff; /* Set background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    overflow: hidden; /* Prevent content overflow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transitions */
+}
+
+.box:hover {
+    transform: translateY(-5px); /* Move box up slightly on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Darken box shadow on hover */
+}
+
+.thum {
+    width: 100%;
+    height: 200px; /* Set image container height */
+    overflow: hidden;
+    border-top-left-radius: 8px; /* Round top-left corner */
+    border-top-right-radius: 8px; /* Round top-right corner */
+}
+
+.thum img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+
+.box:hover .thum img {
+    transform: scale(1.1); /* Scale up image on hover */
+}
+
+.dast-content {
+    padding: 20px;
+}
+
+.Location h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px; /* Add margin bottom for spacing */
+}
+
+.Location a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #5e48e1; /* Button text color */
+    border: 2px solid #5e48e1; /* Button border */
+    border-radius: 25px; /* Button border radius */
+    text-decoration: none;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.Location a:hover {
+    color: #3c2f97; /* Button text color on hover */
+    border-color: #3c2f97; /* Button border color on hover */
+}
+
+
+
+
+
+ .Sm {
+    padding: 80px 0;
+    text-align: center;
+    color: #63C5DA; /* Set text color */
+}
+
+.Smtitle h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px; /* Add margin bottom for spacing */
+    color: #63C5DA; /* Set text color */
+}
+
+.Sm-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px; /* Add space between mall boxes */
+    margin-top: 30px;
+}
+
+.smbox {
+    position: relative;
+    width: 300px;
+    background-color: #fff; /* Set background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    overflow: hidden; /* Prevent content overflow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transitions */
+}
+
+.smbox:hover {
+    transform: translateY(-5px); /* Move box up slightly on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Darken box shadow on hover */
+}
+
+.smthum {
+    width: 100%;
+    height: 200px; /* Set image container height */
+    overflow: hidden;
+    border-top-left-radius: 8px; /* Round top-left corner */
+    border-top-right-radius: 8px; /* Round top-right corner */
+}
+
+.smthum img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+
+.smthum:hover img {
+    transform: scale(1.1); /* Scale up image on hover */
+}
+
+.Smdast-content {
+    padding: 20px;
+}
+
+.SmLocation h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px; /* Add margin bottom for spacing */
+    color: #63C5DA; /* Set text color */
+}
+
+.SmLocation a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #5e48e1; /* Button text color */
+    border: 2px solid #5e48e1; /* Button border */
+    border-radius: 25px; /* Button border radius */
+    text-decoration: none;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.SmLocation a:hover {
+    color: #3c2f97; /* Button text color on hover */
+    border-color: #3c2f97; /* Button border color on hover */
+}
+
+.st {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.sttitle {
+    margin-bottom: 40px;
+}
+
+.sttitle h2 {
+    font-size: 2.5rem;
+    color: var(--main-color);
+     color: #63C5DA;
+}
+
+.st-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.stbox {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stbox:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.stthum {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.stthum img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.stdast-content {
+    padding: 20px;
+}
+
+.stLocation h3 {
+    font-size: 1.5rem;
+    color: var(--main-color);
+    margin-bottom: 10px;
+    color: #63C5DA;
+}
+
+.stLocation a {
+    font-size: 1.2rem;
+     color: #63C5DA;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.stLocation a:hover {
+    color: #3c2f97;
+}
+
+
+
+ .home-btn {
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 30px;
+    background: #ffffffbf;
+    color: var(--main-color);
+    border-radius: 4px;
+    transition: ease .4s;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.home-btn:hover {
+    transform: scale(1.1); /* Increase size on hover */
+    background: #ffffff; /* Change background color on hover */
+    color: var(--second-color); /* Change text color on hover */
+}
+
+@media (min-width: 640px){
+    .Park-grid{
+        grid-template-columns:repeat(3,1fr) ;
+        gap: 1rem;
+    }
+}
+
+
+</style>
+</head>
+<body style="position: relative;">
+  <header>
+       
+       <div> 
+          <img src="images/ucsy.jpg" height="70" style="padding-left: 50px; padding-top: 20px; padding-bottom: 5px ;"> 
+         
+        </div>
+        
+      
+    </header>
+
+        <nav id = "navbar" style=" position: sticky; top: 0; left: 0; opacity: 0.8;z-index: 100000;">
+        <ul class="container">
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <select class="destinations" onchange="location=this.value;">
+              <option id="defaultOptionDestinations" selected>Destinations</option>
+              
+              <option value="lab.html">Labs</option>
+              <option value="library.html">Library</option>
+              <option value="athelete.html">Athlete Centre</option>
+              <option value="canteen.html">Canteen</option>
+              <option selected value="outside.html">Outside school</option>
+            </select>
+          </li>
+          <li>
+            <select class="activities" onchange="location=this.value;">
+              <option id="defaultOptionActivities" selected>Activities</option>
+              <option value="clubs.html">Clubs</option>
+              <option value="event.html">Events</option>
+              <option value="event.html#boardGame">Board Game</option>
+            </select>
+          </li>
+          <li><a href="learning.html">Learning</a></li>
+          <li><a href="about.html">About Us</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1 style="font-size: 75px;">UCSY <br> OUTSIDE</h1>
+            <a href="#" class="home-btn">Let's Go Now!</a>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row-items">
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="images/img27 (1) (1).jpg">
+                </div>
+                    <h4>Pagoda</h4>
+
+            </div>
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="images/img25 (1).jpg">
+                 </div>
+                    <h4>Park</h4>
+            </div>
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="images/img23 (1).jpg">
+                </div>
+                    <h4>Market</h4>
+             </div>
+            
+        </div>
+    </section>
+    <section class="Pagoda" >
+        <div class="Pagoda-img">
+            <img  src="images/img1.jpg">
+        </div>
+        <div class="Pagada-text">
+            <h2 style="font-size: 65px;">Thar Du Kan <br><br><br>Pagoda</h2>
+            <a href="https://www.google.com/maps/dir/Thar+Du+Kan+Pagoda,+Yangon/Yangon+International+Airport,+Yangon+Airport+Road,+Yangon/@16.9026623,96.0942306,13z/data=!4m13!4m12!1m5!1m1!1s0x30c197dbf60ce7a9:0x8a286edd7d82e889!2m2!1d96.0997051!2d16.9843307!1m5!1m1!1s0x30c194168bb31e03:0x26217574c0bf07bf!2m2!1d96.1354307!2d16.9026664?entry=ttu" class="home-btn">MORE DETAIL</a>
+        </div>
+
+    </section>
+    <section class="Park" id="Park">
+        <div class="ptitle">
+            <h2 style="font-size: 65px;">Market</h2>
+        </div>
+        <div class="p-content">
+            <div class="pbox">
+                <div class="pthum">
+                    <img src="images/img16 (1) (1).jpg">
+                   
+                </div>
+                <div class="pdast-content">
+                    <div class="pLocation">
+                        <h3>Hlawga Park</h3>
+                        <a href="https://www.hlawgapark.com/">More Detail</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="pbox">
+                <div class="pthum">
+                    <img src="images/img5 (1).jpg">
+                   
+                </div>
+                <div class="pdast-content">
+                    <div class="pLocation">
+                        <h3>TM Farm</h3>
+                        <a href="https://www.google.com/maps/place/TM+Farm+Roadhouse/@17.0328125,96.1480625,15z/data=!4m6!3m5!1s0x30c199f006113803:0x777c5526b641bfaf!8m2!3d17.0328125!4d96.1480625!16s%2Fg%2F11j9pdz7z4?entry=ttu">More Detail</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="pbox">
+                <div class="pthum">
+                    <img src="images/img10 (1) (1).jpg">
+                   
+                </div>
+                <div class="pdast-content">
+                    <div class="pLocation">
+                        <h3>Hmawbi Camping</h3>
+                        <a href="#">More Detail</a>
+                    </div>
+                </div>
+
+            </div>
+        </div></section>
+    
+    <section class="Market" id="market">
+        <div class="title">
+            <h2 style="font-size: 65px;">Market</h2>
+        </div>
+        <div class="market-content">
+            <div class="box">
+                <div class="thum">
+                    <img src="images/img11.jpg">
+                   
+                </div>
+                <div class="dast-content">
+                    <div class="Location">
+                        <h3>ဒညင်းကုန်းဈေး</h3>
+                        <a href="https://www.google.com/maps/place/Da+Nyin+Gone/@16.9337124,96.0993433,17z/data=!3m1!4b1!4m6!3m5!1s0x30c1966679bdfb71:0x9ee8f2f6a4546c2d!8m2!3d16.9337124!4d96.1019182!16s%2Fg%2F11_rncfn_?entry=ttu">More Detail</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="thum">
+                    <img src="images/img30.jpg">
+                   
+                </div>
+                <div class="dast-content">
+                    <div class="Location">
+                        <h3>လှော်ကားတာဆုံဈေး</h3>
+                        <a href="https://www.google.com/maps/place/Da+Nyin+Gone/@16.9337124,96.0993433,17z/data=!3m1!4b1!4m6!3m5!1s0x30c1966679bdfb71:0x9ee8f2f6a4546c2d!8m2!3d16.9337124!4d96.1019182!16s%2Fg%2F11_rncfn_?entry=ttu">More Detail</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="thum">
+                    <img src="images/img15.jpg">
+                   
+                </div>
+                <div class="dast-content">
+                    <div class="Location">
+                        <h3>ပိုက်လုံးဈေး</h3>
+                        <a href="https://www.google.com/maps/place/Da+Nyin+Gone/@16.9337124,96.0993433,17z/data=!3m1!4b1!4m6!3m5!1s0x30c1966679bdfb71:0x9ee8f2f6a4546c2d!8m2!3d16.9337124!4d96.1019182!16s%2Fg%2F11_rncfn_?entry=ttu">More Detail</a>
+                    </div>
+                </div>
+
+            </div>
+        </div></section>
+         <section class="Sm" id="Sm">
+        <div class="Smtitle">
+            <h1 style="font-size: 60px;">Shopping Mall</h1>
+        </div>
+        <div class="Sm-content">
+            <div class="smbox">
+                <div class="smthum">
+                    <img src="images/img12.jpg">
+                   
+                </div>
+                <div class="Smdast-content">
+                    <div class="SmLocation">
+                        <h3>KanTharYar CityMart</h3>
+                        <a href="https://www.google.com/maps/dir//W4X2%2BCCR,+Yangon/@16.9485978,96.0185989,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x30c197acbaef448f:0x7f16f9cc63671544!2m2!1d96.1010007!2d16.9486143?entry=ttu">More Detail</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="smbox">
+                <div class="smthum">
+                    <img src="images/img2.jpg">
+                   
+                </div>
+                <div class="Smdast-content">
+                    <div class="SmLocation">
+                        <h3>Terminal M</h3>
+                        <a href="https://www.google.com/maps/dir//Terminal+M+Leisure+Mall,+Mingalardon+Industrial+Park+Phase+(1),+%E1%80%A1%E1%80%99%E1%80%BE%E1%80%90%E1%80%BA+%E1%81%83+%E1%80%9C%E1%80%99%E1%80%BA%E1%80%B8,+Yangon/@16.9371109,96.1127681,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x30c191b2e93ca065:0xdfc99d79b629f759!2m2!1d96.1539682!2d16.937115?entry=ttu">More Detail</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="smbox">
+                <div class="smthum">
+                    <img src="images/img37.jpg">
+                   
+                </div>
+                <div class="Smdast-content">
+                    <div class="SmLocation">
+                        <h3>Orange Supermarket</h3>
+                        <a href="https://www.google.com/maps/dir//Orange+Supermarket,+Lower+Mingalardon+Road,+Yangon/@16.9542847,96.058147,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x30c19795efa53085:0xfb445effff5673bf!2m2!1d96.0992917!2d16.9542671?entry=ttu">More Detail</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+       </section>
+        <section class="st" id="st">
+        <div class="sttitle">
+            <h2 style="font-size: 65px;">Station</h2>
+        </div>
+        <div class="st-content">
+            <div class="stbox">
+                <div class="stthum">
+                    <img src="images/img9 (1).jpg">
+                   
+                </div>
+                <div class="stdast-content">
+                    <div class="stLocation">
+                        <h3>YBS Bus Station</h3>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <div class="stbox">
+                <div class="stthum">
+                    <img src="images/img13 (1).jpg">
+                   
+                </div>
+                <div class="stdast-content">
+                    <div class="stLocation">
+                        <a href="https://www.google.com/maps/dir//Da+Nyin+Gone+Station+Rd,+Yangon/@16.9338864,96.087446,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x30c19668cdf01c7b:0x94129d805c23aff4!2m2!1d96.0977458!2d16.9338867?entry=ttu" ><h3>Hlawga Train Station</h3></a>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <div class="stbox">
+                <div class="stthum">
+                    <img src="images/img38.jpg">
+                   
+                </div>
+                <div class="stdast-content">
+                    <div class="stLocation">
+                        <a href="https://www.google.com/maps/dir//Yangon+International+Airport,+Yangon+Airport+Road,+Yangon/@16.9026623,96.0942306,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x30c194168bb31e03:0x26217574c0bf07bf!2m2!1d96.1354307!2d16.9026664?entry=ttu" ><h3>Yangon International Air port</h3></a>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div></section>
+     
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/optimization.js"></script>
+
+</body>
+</html>

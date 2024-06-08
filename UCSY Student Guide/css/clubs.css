@@ -1,0 +1,300 @@
+body{
+    overflow-x:hidden;
+}
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+.left {
+    flex: 50%;
+}
+.right {
+    flex: 50%;
+}
+h1{
+    font-family: montserrat;
+    font-weight: 8rem;
+    font-size:40p ;
+
+}
+h9{
+    font-weight: 950;
+    color: #3B9EBF;
+}
+p{
+    font-family: novoto;
+    font-size: 25px;
+    color: #000;
+}
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h8{
+    font-size: 50px;
+    font-weight: 950;
+    color: #3B9EBF
+ }
+p{
+    font-family: novoto;
+    font-size: 25px;
+}
+ .center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+h7{
+    font-size: 50px;
+    font-weight: 950;
+    color: #3B9EBF
+ }
+p{
+    font-family: novoto;
+    font-size: 25px;
+    text-align: rignt;
+}
+ .center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+h6{
+    font-size: 50px;
+    font-weight: 950;
+    color: #3B9EBF
+ }
+p{
+    font-family: novoto;
+    font-size: 25px;
+
+}
+ .center3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+h5{
+    font-size: 50px;
+    font-weight: 950;
+    color: #3B9EBF
+ }
+p{
+    font-family: novoto;
+    font-size: 25px;
+}
+ .center4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+h4{
+    font-size: 50px;
+    font-weight: 950;
+    color: #3B9EBF
+ }
+p{
+    font-family: novoto;
+    font-size: 25px;
+}
+ .center5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+h3{
+    font-size: 50px;
+    font-weight: 950;
+    color: #3B9EBF
+ }
+p{
+    font-family: novoto;
+    font-size: 25px;
+}
+ .center6 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+h2{
+    font-size: 50px;
+    font-weight: 950;
+    color: #3B9EBF
+ }
+p{
+    font-family: novoto;
+    font-size: 25px;
+}
+ .center7 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+h1{
+    font-size: 50px;
+    font-weight: 950;
+    color: #3B9EBF
+ }
+p{
+    font-family: novoto;
+    font-size: 25px;
+}
+ .center8 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+h0{
+    font-size: 50px;
+    font-weight: 950;
+    color: #3B9EBF
+ }
+p{
+    font-family: novoto;
+    font-size: 25px;
+}
+ .center9 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+/* Intro Page */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container1{
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+}
+.container1{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.text_container{
+    width: 50%;
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+.text_container h2{
+    font-size: 10vw;
+    font-weight: 900;
+    line-height: 10vw;
+    text-transform: capitalize;
+}
+.text_container h2:first-line{
+    color: #6fd6f8;
+    letter-spacing: 5px;
+    text-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+.text_container h5{
+    color: white;
+    font-size: 2vw;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 10vw;
+    text-transform: capitalize;
+}
+.text_container p{
+    font-size: 1vw;
+    font-weight: 400;
+    color: white;
+    margin-top: 30px;
+}
+.image_container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: right;
+    justify-content: right;
+    position: relative;
+}
+.imgbox{
+    position: relative;
+    min-width: 70vh;
+    margin-right: 10vw;
+    z-index: 1;
+}
+.imgbox img{
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+}
+
+.icons{
+    position: absolute;
+    top: 70%;
+    right: -16vw;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+.icons .fa-solid{
+    width: 20vs;
+    padding: 1vw;
+    padding-right: 30%;
+    font-size: 2.0vw;
+    cursor: pointer;
+    background: #99dff7;
+    transition: 0.5s ease;
+    color: white;
+}
+.icons .fa-solid:hover{
+    color:black;
+    transform: translateX(-8vw);
+}
+.icons .fa-solid span{
+    position: relative;
+    font-size: 1.2vw;
+    bottom: 0.3vw;
+    margin-left: 1.8vw;
+}
+/* Creating animated blob without SVG */
+.animblob{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    height: 35vw;
+    width: 35vw;
+    transform: translate(-50%, -50%);
+    background: #0B151E;
+    animation: animate_blob 8s linear infinite;
+}
+@keyframes animate_blob{
+        0%, 100%{
+            border-radius: 45% 55% 70% 35% / 70% 30% 90% 40%;
+        }
+        25%{
+            border-radius: 55% 45% 30% 35% / 50% 30% 60% 10%;
+        }
+        50%{
+            border-radius: 65% 35% 35% 65% / 40% 60% 30% 70%;
+        }
+        25%{
+            border-radius: 35% 65% 60% 40% / 70% 30% 40% 60%;
+        }
+}
+

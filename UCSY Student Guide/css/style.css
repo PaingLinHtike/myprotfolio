@@ -1,0 +1,10 @@
+/* import font */
+
+@import "partial/variable.css";
+@import url("partial/global.css");
+@import "partial/common.css";
+@import "partial/header.css";
+@import "partial/slider.css";
+@import "partial/card.css";
+@import "partial/video.css";
+@import "partial/footer.css";

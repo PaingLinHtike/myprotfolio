@@ -1,0 +1,12 @@
+.footer{
+    background-color:#A5F4FF;
+    height: 400px;
+}
+.footbody{
+    display: flex;
+    color: #fff;
+    font-family: var(--secondary-font-family);
+    font-size: 13px;
+    padding-top: 60px;
+}
+

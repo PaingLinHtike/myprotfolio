@@ -1,0 +1,30 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+
+.title {
+  font-family: var(--secondary-font-family);
+  font-size: 35px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 40px;
+}
+.brand-color {
+  color: var(--brand-color);
+}
+.red-color {
+  color: var(--red-color);
+}
+.mt-60 {
+  margin-top: 60px;
+}
+.mt-100 {
+  margin-top: 100px;
+}
+.mt-120 {
+  margin-top: 120px;
+}
+.
+ 

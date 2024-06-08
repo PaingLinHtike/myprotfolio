@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <link rel="stylesheet" href="Tstyle.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="TLogin.css" />
+        <link rel="icon" href="Image/favcion.png" type="image/x-icon">
+
+    <title>Login Form</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="form-container log-in-container">
+        <form action="#">
+          <h1>Register</h1>
+          <div class="social-container">
+            <a href="#" class="social"><i class="fa fa-facebook fa-2x"></i></a>
+            <a href="#" class="social"
+              ><i class="fab fa fa-twitter fa-2x"></i
+            ></a>
+            <a href="Tindex.html	" class="social"
+              ><i class="fa fa-home fa-2x"></i
+            ></a>
+            <!-- New home icon -->
+          </div>
+          <span>or use your account</span>
+          <input type="text" placeholder="First Name" required/>
+          <input type="text" placeholder="Last Name" required/>
+          <input type="email" placeholder="Email" required />
+          <input type="password" placeholder="Password" required/>
+          <input type="tel" placeholder="Phone Number" required pattern="[0][9][0-9]{7,9}" title="09*********" />
+          <input type="text" placeholder="Roll" required pattern="[Y][K][P][T]+-[0-9]{5}"/>
+          <select id="sex" name="sex" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <select id="registrationType" name="registrationType" required>
+            <option value="individual">Individual</option>
+            <option value="company">Company</option>
+          </select>
+          <a href="#">Forgot your password?</a>
+          <button href="../Project/Tthank.html">Log In</button><br />
+
+          <!-- <form action="#" id="registrationForm"></form> -->
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-right">
+            <h1>Hello, Friend!</h1>
+            <p>Enter your personal details and start journey with us</p>
+            <img src="Image/favcion.png" alt="UCSY LOGO" class="icon">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="TLogin.js"></script>
+  </body>
+</html>

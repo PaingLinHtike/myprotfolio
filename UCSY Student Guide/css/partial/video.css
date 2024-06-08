@@ -1,0 +1,46 @@
+
+.know {
+    display: flex;
+    display: 100%;
+    
+}
+.knowp
+{
+	float: left;
+	width: 40%;
+	height: 450px;
+	padding-top: 60px;
+    margin-right: 60px;
+	
+
+}
+
+.knowp .p
+{
+	display: inline-block;
+	font-size: 15px;
+	padding-top: 50px;
+	color: #000;
+	text-align: center;
+	line-height: 3rem;
+	font-family:  var(--secondary-font-family);
+}
+
+
+.knowp span
+{
+	display: inline-block;
+	color: var(--brand-color);
+	font-size: 30px;
+	font-family: var(--primary-font-family);
+}
+.knowvd
+{
+	float: right;
+ 
+
+}
+.know
+{
+	overflow: hidden;
+}

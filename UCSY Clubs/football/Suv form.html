@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="logo.jpg" type="image/x-icon">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Survey Form_files/styles.css">
+    
+    <title>Survey Form</title>
+<link rel="icon" href="../images/favcion.png" type="image/x-icon">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <style>
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+            font-family: Arial, sans-serif;
+            background-color: #89CFF0;
+            margin:0;
+        }
+.container {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 0px 2rem;
+  border: 1px solid;
+}
+
+.main-heading {
+  font-size: 4rem;
+  margin: 2rem 0rem 1rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+/* form section */
+.form-class {
+  margin: 2rem 0px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-field {
+  margin: 1rem 0px 0.6rem;
+}
+
+.field-head {
+  font-size: 2rem;
+}
+
+.input-div {
+  margin-bottom: 1rem;
+}
+
+.field-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.form-control-input {
+  font-size: 1.5rem;
+  padding: 0.4rem 0px;
+  text-indent: 0.5rem;
+  border: none;
+  outline: 1px solid #999;
+  border-radius: 7px;
+  width: 100%;
+  color: #999;
+}
+option {
+  color: #999;
+}
+.radio {
+  outline: none;
+}
+
+.form-control-input:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+.help-text {
+  font-size: 0.7rem;
+  margin-top: 0.4rem;
+  padding: 0.1rem;
+}
+
+button {
+  font-size: 2rem;
+  margin: 0px auto;
+  display: block;
+  color: wite;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 1px #0000;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+
+
+.image{
+  width: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+header {
+            background-color: teal;
+            color: #fff;
+            padding: 1.5em;
+        }
+
+         nav a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        nav ul li{
+            display:inline;
+            margin-right: 20px;
+        }
+        }
+        .navbar{
+            position:-webkit-sticky;
+            position:sticky;
+            top:0;
+            z-index: 1000;
+        }
+        .club{
+            text-align: center;
+            font-size: 40px;
+            position:absolute;
+            left:2%;
+            top:20px;
+        }
+        .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    left: 0;
+    top: 200px;
+    width: 100%;
+}
+
+.social-icons {
+    position: relative;
+padding-left:70px;
+    margin-top: 120px;
+}
+
+.icon {
+    color: black;
+    text-decoration: none;
+    margin: 0 30px;
+  padding: -10px;
+}
+
+.icon i {
+    font-size: 25px;
+        color: white;
+      }
+
+.icon i:hover {
+    color: #F9DF8D;
+}
+.club-icons {
+    position: relative;
+ margin-left: 660px;
+  }
+  .text{
+    margin-bottom: 20px;
+    margin-left: 600px;
+    padding-top: 10px;
+  }
+  .icon1 i {
+    font-size: 25px;
+        color: white;
+        margin-top: 5px;
+      }
+.icon1{
+  padding-right: 30px;
+  margin-left: 32px;
+    margin-top: 50px;
+}
+.icon1 i:hover {
+    color: #F9DF8D;
+}
+</style>
+</head>
+<body>
+  <header class="navbar" align="center">
+    <div style="color:black;" class="club">Football Club</div>
+    <nav>
+        <ul align="right">
+        <li><a href="FHome.html">Home</a></li>
+        <li><a href="FAbout.html">About Us</a></li>
+        <li><a href="FTeam.html">Team</a></li>
+        <li><a href="FGallery.html">Gallery</a></li>
+        <li><a href="Fschedule.html">Schedule</a></li>
+        <li><a href="FSuv form.html">Contact</a></li></ul>
+    </nav>
+    </nav>
+    </header>
+    <div class="container">
+        
+            <img id="image" src="Logo.jpg" alt="Logo" width="500" height="300" style="padding-left: 200px;"> 
+        <figcaption class="main-heading"> OCEAN OWLS FC</figcaption>
+        <hr>
+
+        <!-- form start -->
+        <form class="form-class">
+
+            <!-- Name -->
+            <div class="form-control">
+                <div class="heading-field">
+                    <h3 class="field-head">Player Name</h3>
+                </div>
+                <div class="field-inputs">
+                    <div class="input-div">
+                        <input placeholder="First Name" type="text" class="form-control-input" id="first-name" name="first name" required><br>
+                    </div>
+                    <div class="input-div">
+                        <input placeholder="Last Name" type="text" class="form-control-input" id="last-name" name="last name" required><br>
+                    </div>
+                </div>
+            </div>
+            <!-- Name Ends -->
+
+            <!-- Address -->
+            <div class="form-control">
+                <div class="heading-field">
+                    <h3 class="field-head">Address</h3>
+                </div>
+                <div>
+                    <div class="input-div">
+                        <input type="text" class="form-control-input" id="street-address" name="address" required><br>
+                        <div id="street-address-help" class="help-text">Street Address</div>
+                    </div>
+                </div>
+                <div class="field-inputs">
+                    <div class="input-div">
+                        <input type="text" class="form-control-input" id="city-name" name="city" required><br>
+                        <div id="city-help" class="help-text">City</div>
+                    </div>
+                    <div class="input-div">
+                        <input type="text" class="form-control-input" id="state-name" name="country" required><br>
+                        <div id="state-name-help" class="help-text">Country</div>
+                    </div>
+                </div>
+                <div class="field-inputs">
+                    <div class="input-div">
+                        <select class="form-control-input" name="country" required>
+                            <option value="Vanuatu">Kachin</option>
+                            <option value="Vanuatu">Kayah</option>
+                            <option value="Vanuatu">Kayin</option>
+                            <option value="Vanuatu">Chin</option>
+                            <option value="Vanuatu">Shan</option>
+                            <option value="Vanuatu">Mon</option>
+                            <option value="Vanuatu">Yakhine</option>
+                            <option value="Vanuatu">Yangon</option>
+                            <option value="Vanuatu">Bago</option>
+                            <option value="Vanuatu">Mandalay</option>
+                            <option value="Vanuatu">Magway</option>
+                            <option value="Vanuatu">Ayeyawady</option>
+                            <option value="Vanuatu">Tanintharyi</option>
+                            <option value="Vanuatu">Sagaing</option>
+                        </select>
+                        <div id="country-help" class="help-text">Select State</div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Address ends -->
+
+            <!-- contact  -->
+            <div class="form-control">
+                <div class="heading-field">
+                    <h3 class="field-head">Contact </h3>
+                </div>
+                <div class="field-inputs">
+                    <div class="input-div">
+                        <input type="tel" class="form-control-input" pattern="[0][9][0-9]{7,9}" id="contact" name="contact" required><br>
+                        <div id="tel-name-help" class="help-text">Phone</div>
+                    </div>
+                    <div class="input-div">
+                        <input type="email" class="form-control-input" id="email" name="email" required ><br>
+                        <div id="last-name-help" class="help-text">Email</div>
+                    </div>
+                </div>
+            </div>
+            <!-- contact ends -->
+
+            <!-- person detail  -->
+            <div class="form-control">
+                <div class="heading-field">
+                    <h3 class="field-head">Personal Details </h3>
+                </div>
+                <div class="field-inputs">
+                    <div class="input-div">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+            </div>
+            <!-- personal detail ends -->
+
+            <!-- Rate -->
+            <div class="form-control">
+                <div class="heading-field">
+                    <h3 class="field-head">Player Role: </h3>
+                </div>
+                <div class="input-div" style="display: flex; gap:10px;">
+          <input type="radio" id="bad" name="rating1" value="bad">
+          <label for="bad">GK</label><br>
+          <input type="radio" id="good" name="rating1" value="good">
+          <label for="good">CB</label><br>
+          <input type="radio" id="excelent" name="rating1" value="other">
+          <label for="excelent">RB</label><br>
+          <input type="radio" id="bad" name="rating1" value="bad">
+          <label for="bad">LB</label><br>
+          <input type="radio" id="good" name="rating1" value="good">
+          <label for="good">CM</label><br>
+          <input type="radio" id="excelent" name="rating1" value="other">
+          <label for="excelent">RM</label><br>
+          <input type="radio" id="bad" name="rating1" value="bad">
+          <label for="bad">LM</label><br>
+          <input type="radio" id="good" name="rating1" value="good">
+          <label for="good">ST</label><br>
+          <input type="radio" id="excelent" name="rating1" value="other">
+          <label for="bad">RW</label><br>
+          <input type="radio" id="good" name="rating1" value="good">
+          <label for="good">LW</label><br>
+          <input type="radio" id="excelent" name="rating1" value="other">
+          <label for="excelent">CF</label><br>
+        </div>
+            </div>
+            <!-- Rate ends -->
+
+            <button type="submit"><a  style="text-decoration:none; color:#fff;"href="Fthankyou.html">Submit</button>
+            
+        </form>
+        <!-- form ends -->
+    </div>
+    <!-- form container ends -->
+    <script src="./Survey Form_files/script.js.download"></script>
+     <footer class="footer">
+    <p style="margin-right: 800px;
+    margin-bottom: -30px;">&copy; 2024 UCSY clubs & Activities</p>
+    <p class="text" style="margin-bottom: 100px;">Hot Line No: 01 7624 83</p>
+</footer>
+
+<div class="social-icons"style="margin-right: 800px;
+    margin-bottom: -30px;">
+    <a href="https://www.facebook.com/ucsygn/" class="icon"><i class="fab fa-facebook-f fa-2x"></i></a>
+    <a href="https://twitter.com/ucsygn?lang=en" class="icon"><i class="fab fa-twitter fa-2x"></i></a>
+    <a href="https://moodle.ucsy.edu.mm/login/index.php" class="icon"><i class="fas fa-book fa-2x"></i></a>
+    <a href="https://www.ucsy.edu.mm/" class="icon"><i class="fab fa-google fa-2x"></i></a>
+</div>
+<div class="club-icons">
+        <a href="#" class="icon1"><i class="fas fa-home fa-2x"></i></a>
+    <a href="#" class="icon1"><i class="fas fa-basketball-ball fa-2x"></i></a>
+<a href="#" class="icon1"><i class="fas fa-football-ball fa-2x"></i></a>
+<a href="#" class="icon1"><i class="fas fa-gamepad fa-2x"></i></a>
+<a href="#" class="icon1"><i class="fas fa-table-tennis fa-2x"></i></a>
+<a href="#" class="icon1"><i class="fas fa-music"></i></a></div>
+
+
+</body>
+</html>
